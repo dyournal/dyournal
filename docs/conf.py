@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Dyournal'
-copyright = '2025, {AUTOR}'
+copyright = '{ANO}, {AUTOR}'
 author = '{AUTOR}'
 release = '{ANO}'
 
@@ -28,3 +28,5 @@ language = '{IDIOMA}'
 
 html_theme = 'pydata_sphinx_theme'
 html_static_path = ['_static']
+
+html_title = html_short_title = project
